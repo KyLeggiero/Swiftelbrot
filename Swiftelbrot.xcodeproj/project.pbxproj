@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B91A13F428C3F807000FBEA9 /* CollectionTools in Frameworks */ = {isa = PBXBuildFile; productRef = B91A13F328C3F807000FBEA9 /* CollectionTools */; };
+		B91A13F628C3F818000FBEA9 /* CollectionTools in Frameworks */ = {isa = PBXBuildFile; productRef = B91A13F528C3F818000FBEA9 /* CollectionTools */; };
+		B92A38D228BE97BD00CEDD7F /* Rectangle + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A38D128BE97BD00CEDD7F /* Rectangle + extensions.swift */; };
+		B92A38D428BE987200CEDD7F /* Rectangle + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A38D128BE97BD00CEDD7F /* Rectangle + extensions.swift */; };
+		B92A38D628BE9A3300CEDD7F /* Size + scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A38D528BE9A3300CEDD7F /* Size + scale.swift */; };
+		B92A38D728BE9B6D00CEDD7F /* Size + scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A38D528BE9A3300CEDD7F /* Size + scale.swift */; };
+		B92A38DA28BE9E9800CEDD7F /* ColorSwatches in Frameworks */ = {isa = PBXBuildFile; productRef = B92A38D928BE9E9800CEDD7F /* ColorSwatches */; };
+		B92A38DC28BE9EA100CEDD7F /* ColorSwatches in Frameworks */ = {isa = PBXBuildFile; productRef = B92A38DB28BE9EA100CEDD7F /* ColorSwatches */; };
+		B92A38DE28BEAB9B00CEDD7F /* MandelbrotIterations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A38DD28BEAB9B00CEDD7F /* MandelbrotIterations.swift */; };
+		B92A38DF28BEAFCF00CEDD7F /* MandelbrotIterations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A38DD28BEAB9B00CEDD7F /* MandelbrotIterations.swift */; };
+		B92A38E128BEB20300CEDD7F /* Rectangle + atResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A38E028BEB20300CEDD7F /* Rectangle + atResolution.swift */; };
+		B92A38E228BEB3D400CEDD7F /* Rectangle + atResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A38E028BEB20300CEDD7F /* Rectangle + atResolution.swift */; };
+		B92A38E428BEE40C00CEDD7F /* Sequence + concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A38E328BEE40C00CEDD7F /* Sequence + concurrency.swift */; };
+		B92A38E528BEE40C00CEDD7F /* Sequence + concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A38E328BEE40C00CEDD7F /* Sequence + concurrency.swift */; };
+		B96183CB28D1629100B682E4 /* Subscriber+eraseToAnySubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183CA28D1629100B682E4 /* Subscriber+eraseToAnySubscriber.swift */; };
+		B96183CC28D1845400B682E4 /* Subscriber+eraseToAnySubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183CA28D1629100B682E4 /* Subscriber+eraseToAnySubscriber.swift */; };
+		B96183CE28D18D8900B682E4 /* ProgressView + Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183CD28D18D8900B682E4 /* ProgressView + Progress.swift */; };
+		B96183CF28D18D8900B682E4 /* ProgressView + Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183CD28D18D8900B682E4 /* ProgressView + Progress.swift */; };
+		B96183D128D44E1C00B682E4 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183D028D44E1C00B682E4 /* Progress.swift */; };
+		B96183D228D44E1C00B682E4 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183D028D44E1C00B682E4 /* Progress.swift */; };
+		B96183D428D4C2E300B682E4 /* 2D + multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183D328D4C2E300B682E4 /* 2D + multiplication.swift */; };
+		B96183D528D4C2E300B682E4 /* 2D + multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183D328D4C2E300B682E4 /* 2D + multiplication.swift */; };
+		B9810C1C28C94ECE000FC64D /* CGSize + Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9810C1B28C94ECE000FC64D /* CGSize + Hashable.swift */; };
+		B9810C1D28C94F07000FC64D /* CGSize + Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9810C1B28C94ECE000FC64D /* CGSize + Hashable.swift */; };
+		B98F85F8289DF57E0094CC32 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F85E8289DF57B0094CC32 /* App.swift */; };
+		B98F85F9289DF57E0094CC32 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F85E8289DF57B0094CC32 /* App.swift */; };
+		B98F85FA289DF57E0094CC32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F85E9289DF57B0094CC32 /* ContentView.swift */; };
+		B98F85FB289DF57E0094CC32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F85E9289DF57B0094CC32 /* ContentView.swift */; };
+		B98F85FC289DF57E0094CC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98F85EA289DF57E0094CC32 /* Assets.xcassets */; };
+		B98F85FD289DF57E0094CC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98F85EA289DF57E0094CC32 /* Assets.xcassets */; };
+		B98F860B289DF7450094CC32 /* Job.java in Sources */ = {isa = PBXBuildFile; fileRef = B98F8606289DF7450094CC32 /* Job.java */; };
+		B98F860C289DF7450094CC32 /* Job.java in Sources */ = {isa = PBXBuildFile; fileRef = B98F8606289DF7450094CC32 /* Job.java */; };
+		B98F860D289DF7450094CC32 /* Pixel.java in Sources */ = {isa = PBXBuildFile; fileRef = B98F8607289DF7450094CC32 /* Pixel.java */; };
+		B98F860E289DF7450094CC32 /* Pixel.java in Sources */ = {isa = PBXBuildFile; fileRef = B98F8607289DF7450094CC32 /* Pixel.java */; };
+		B98F8611289DF7450094CC32 /* Main.java in Sources */ = {isa = PBXBuildFile; fileRef = B98F8609289DF7450094CC32 /* Main.java */; };
+		B98F8612289DF7450094CC32 /* Main.java in Sources */ = {isa = PBXBuildFile; fileRef = B98F8609289DF7450094CC32 /* Main.java */; };
+		B98F8613289DF7450094CC32 /* ComplexNumber.java in Sources */ = {isa = PBXBuildFile; fileRef = B98F860A289DF7450094CC32 /* ComplexNumber.java */; };
+		B98F8614289DF7450094CC32 /* ComplexNumber.java in Sources */ = {isa = PBXBuildFile; fileRef = B98F860A289DF7450094CC32 /* ComplexNumber.java */; };
+		B98F8616289DF7D70094CC32 /* ComplexNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F8615289DF7D70094CC32 /* ComplexNumber.swift */; };
+		B98F8617289DF7D70094CC32 /* ComplexNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F8615289DF7D70094CC32 /* ComplexNumber.swift */; };
+		B98F861A289DFC390094CC32 /* MultiplicativeArithmetic in Frameworks */ = {isa = PBXBuildFile; productRef = B98F8619289DFC390094CC32 /* MultiplicativeArithmetic */; };
+		B98F861D289DFF2F0094CC32 /* BasicMathTools in Frameworks */ = {isa = PBXBuildFile; productRef = B98F861C289DFF2F0094CC32 /* BasicMathTools */; };
+		B98F8620289E00AF0094CC32 /* MultiplicativeArithmetic in Frameworks */ = {isa = PBXBuildFile; productRef = B98F861F289E00AF0094CC32 /* MultiplicativeArithmetic */; };
+		B98F8622289E00AF0094CC32 /* BasicMathTools in Frameworks */ = {isa = PBXBuildFile; productRef = B98F8621289E00AF0094CC32 /* BasicMathTools */; };
+		B98F8624289E05150094CC32 /* !~==.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F8623289E05150094CC32 /* !~==.swift */; };
+		B98F8625289E05150094CC32 /* !~==.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F8623289E05150094CC32 /* !~==.swift */; };
+		B98F862E289E131A0094CC32 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F862D289E131A0094CC32 /* Canvas.swift */; };
+		B98F862F289E131A0094CC32 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F862D289E131A0094CC32 /* Canvas.swift */; };
+		B98F8632289EECB40094CC32 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F8631289EECB40094CC32 /* Job.swift */; };
+		B98F8633289EECB40094CC32 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F8631289EECB40094CC32 /* Job.swift */; };
+		B98F8636289EF0FE0094CC32 /* DrawingTools in Frameworks */ = {isa = PBXBuildFile; productRef = B98F8635289EF0FE0094CC32 /* DrawingTools */; };
+		B98F8638289EF2E60094CC32 /* DrawingTools in Frameworks */ = {isa = PBXBuildFile; productRef = B98F8637289EF2E60094CC32 /* DrawingTools */; };
+		B98F863D289F2CFD0094CC32 /* images + blank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F863C289F2CFD0094CC32 /* images + blank.swift */; };
+		B98F863E289F2CFD0094CC32 /* images + blank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F863C289F2CFD0094CC32 /* images + blank.swift */; };
+		B98F8641289F44F00094CC32 /* Image + NativeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F8640289F44F00094CC32 /* Image + NativeImage.swift */; };
+		B98F8642289F44F00094CC32 /* Image + NativeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F8640289F44F00094CC32 /* Image + NativeImage.swift */; };
+		B98F8644289F82E00094CC32 /* CGContext extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F8643289F82E00094CC32 /* CGContext extensions.swift */; };
+		B98F8645289F82E00094CC32 /* CGContext extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F8643289F82E00094CC32 /* CGContext extensions.swift */; };
+		B98F864728A08A5F0094CC32 /* DrawingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F864628A08A5F0094CC32 /* DrawingContext.swift */; };
+		B98F864828A08A5F0094CC32 /* DrawingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F864628A08A5F0094CC32 /* DrawingContext.swift */; };
+		B98F864E28A20FB50094CC32 /* SimpleLogging in Frameworks */ = {isa = PBXBuildFile; productRef = B98F864D28A20FB50094CC32 /* SimpleLogging */; };
+		B98F865028A20FCB0094CC32 /* SimpleLogging in Frameworks */ = {isa = PBXBuildFile; productRef = B98F864F28A20FCB0094CC32 /* SimpleLogging */; };
+		B9E7F57B28A726D50058D2C1 /* FractalColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7F57A28A726D50058D2C1 /* FractalColorPalette.swift */; };
+		B9E7F57C28A726D50058D2C1 /* FractalColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7F57A28A726D50058D2C1 /* FractalColorPalette.swift */; };
+		B9E7F57E28A9F1D20058D2C1 /* MandelbrotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7F57D28A9F1D20058D2C1 /* MandelbrotData.swift */; };
+		B9E7F57F28A9F1D20058D2C1 /* MandelbrotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7F57D28A9F1D20058D2C1 /* MandelbrotData.swift */; };
+		B9E7F58128A9F54B0058D2C1 /* Color + HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7F58028A9F54B0058D2C1 /* Color + HSL.swift */; };
+		B9E7F58228A9F54B0058D2C1 /* Color + HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7F58028A9F54B0058D2C1 /* Color + HSL.swift */; };
+		B9E7F58428A9F8C60058D2C1 /* MandelbrotData + rendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7F58328A9F8C60058D2C1 /* MandelbrotData + rendering.swift */; };
+		B9E7F58528A9F8C60058D2C1 /* MandelbrotData + rendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7F58328A9F8C60058D2C1 /* MandelbrotData + rendering.swift */; };
+		B9E7F58828AB2E480058D2C1 /* ComplexRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7F58728AB2E480058D2C1 /* ComplexRect.swift */; };
+		B9E7F58928AB2E480058D2C1 /* ComplexRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7F58728AB2E480058D2C1 /* ComplexRect.swift */; };
+		B9E7F58C28AB2F070058D2C1 /* ComplexNumber + MutablePoint2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7F58B28AB2F070058D2C1 /* ComplexNumber + MutablePoint2D.swift */; };
+		B9E7F58D28AB2F070058D2C1 /* ComplexNumber + MutablePoint2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E7F58B28AB2F070058D2C1 /* ComplexNumber + MutablePoint2D.swift */; };
+		B9E7F59328B1B8710058D2C1 /* RangeTools in Frameworks */ = {isa = PBXBuildFile; productRef = B9E7F59228B1B8710058D2C1 /* RangeTools */; };
+		B9E7F59528B1B87B0058D2C1 /* RangeTools in Frameworks */ = {isa = PBXBuildFile; productRef = B9E7F59428B1B87B0058D2C1 /* RangeTools */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B92A38D128BE97BD00CEDD7F /* Rectangle + extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rectangle + extensions.swift"; sourceTree = "<group>"; };
+		B92A38D528BE9A3300CEDD7F /* Size + scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Size + scale.swift"; sourceTree = "<group>"; };
+		B92A38DD28BEAB9B00CEDD7F /* MandelbrotIterations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandelbrotIterations.swift; sourceTree = "<group>"; };
+		B92A38E028BEB20300CEDD7F /* Rectangle + atResolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rectangle + atResolution.swift"; sourceTree = "<group>"; };
+		B92A38E328BEE40C00CEDD7F /* Sequence + concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence + concurrency.swift"; sourceTree = "<group>"; };
+		B96183CA28D1629100B682E4 /* Subscriber+eraseToAnySubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subscriber+eraseToAnySubscriber.swift"; sourceTree = "<group>"; };
+		B96183CD28D18D8900B682E4 /* ProgressView + Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressView + Progress.swift"; sourceTree = "<group>"; };
+		B96183D028D44E1C00B682E4 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		B96183D328D4C2E300B682E4 /* 2D + multiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2D + multiplication.swift"; sourceTree = "<group>"; };
+		B9810C1B28C94ECE000FC64D /* CGSize + Hashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize + Hashable.swift"; sourceTree = "<group>"; };
+		B98F85E8289DF57B0094CC32 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		B98F85E9289DF57B0094CC32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B98F85EA289DF57E0094CC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B98F85EF289DF57E0094CC32 /* Swiftelbrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftelbrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98F85F5289DF57E0094CC32 /* Swiftelbrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftelbrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98F85F7289DF57E0094CC32 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B98F8606289DF7450094CC32 /* Job.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Job.java; sourceTree = "<group>"; };
+		B98F8607289DF7450094CC32 /* Pixel.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Pixel.java; sourceTree = "<group>"; };
+		B98F8608289DF7450094CC32 /* Canvas.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Canvas.java; sourceTree = "<group>"; };
+		B98F8609289DF7450094CC32 /* Main.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Main.java; sourceTree = "<group>"; };
+		B98F860A289DF7450094CC32 /* ComplexNumber.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ComplexNumber.java; sourceTree = "<group>"; };
+		B98F8615289DF7D70094CC32 /* ComplexNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexNumber.swift; sourceTree = "<group>"; };
+		B98F8623289E05150094CC32 /* !~==.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "!~==.swift"; sourceTree = "<group>"; };
+		B98F862D289E131A0094CC32 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		B98F8631289EECB40094CC32 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		B98F863C289F2CFD0094CC32 /* images + blank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "images + blank.swift"; sourceTree = "<group>"; };
+		B98F8640289F44F00094CC32 /* Image + NativeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image + NativeImage.swift"; sourceTree = "<group>"; };
+		B98F8643289F82E00094CC32 /* CGContext extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGContext extensions.swift"; sourceTree = "<group>"; };
+		B98F864628A08A5F0094CC32 /* DrawingContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingContext.swift; sourceTree = "<group>"; };
+		B98F864928A1E6A90094CC32 /* ComputeMandelbrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputeMandelbrot.swift; sourceTree = "<group>"; };
+		B9E7F57A28A726D50058D2C1 /* FractalColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalColorPalette.swift; sourceTree = "<group>"; };
+		B9E7F57D28A9F1D20058D2C1 /* MandelbrotData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandelbrotData.swift; sourceTree = "<group>"; };
+		B9E7F58028A9F54B0058D2C1 /* Color + HSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + HSL.swift"; sourceTree = "<group>"; };
+		B9E7F58328A9F8C60058D2C1 /* MandelbrotData + rendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MandelbrotData + rendering.swift"; sourceTree = "<group>"; };
+		B9E7F58728AB2E480058D2C1 /* ComplexRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexRect.swift; sourceTree = "<group>"; };
+		B9E7F58B28AB2F070058D2C1 /* ComplexNumber + MutablePoint2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ComplexNumber + MutablePoint2D.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B98F85EC289DF57E0094CC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98F861A289DFC390094CC32 /* MultiplicativeArithmetic in Frameworks */,
+				B98F861D289DFF2F0094CC32 /* BasicMathTools in Frameworks */,
+				B98F864E28A20FB50094CC32 /* SimpleLogging in Frameworks */,
+				B9E7F59328B1B8710058D2C1 /* RangeTools in Frameworks */,
+				B92A38DA28BE9E9800CEDD7F /* ColorSwatches in Frameworks */,
+				B91A13F428C3F807000FBEA9 /* CollectionTools in Frameworks */,
+				B98F8636289EF0FE0094CC32 /* DrawingTools in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98F85F2289DF57E0094CC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98F8620289E00AF0094CC32 /* MultiplicativeArithmetic in Frameworks */,
+				B98F8622289E00AF0094CC32 /* BasicMathTools in Frameworks */,
+				B98F865028A20FCB0094CC32 /* SimpleLogging in Frameworks */,
+				B9E7F59528B1B87B0058D2C1 /* RangeTools in Frameworks */,
+				B92A38DC28BE9EA100CEDD7F /* ColorSwatches in Frameworks */,
+				B91A13F628C3F818000FBEA9 /* CollectionTools in Frameworks */,
+				B98F8638289EF2E60094CC32 /* DrawingTools in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B92A38D028BE978D00CEDD7F /* RectangleTools */ = {
+			isa = PBXGroup;
+			children = (
+				B92A38D128BE97BD00CEDD7F /* Rectangle + extensions.swift */,
+				B92A38D528BE9A3300CEDD7F /* Size + scale.swift */,
+				B96183D328D4C2E300B682E4 /* 2D + multiplication.swift */,
+				B92A38E028BEB20300CEDD7F /* Rectangle + atResolution.swift */,
+			);
+			path = RectangleTools;
+			sourceTree = "<group>";
+		};
+		B92A38D328BE97C600CEDD7F /* RougeWare */ = {
+			isa = PBXGroup;
+			children = (
+				B92A38E628BEE7B100CEDD7F /* stdlib */,
+				B92A38D028BE978D00CEDD7F /* RectangleTools */,
+				B98F863A289F2C630094CC32 /* DrawingTools */,
+			);
+			path = RougeWare;
+			sourceTree = "<group>";
+		};
+		B92A38E628BEE7B100CEDD7F /* stdlib */ = {
+			isa = PBXGroup;
+			children = (
+				B92A38E328BEE40C00CEDD7F /* Sequence + concurrency.swift */,
+			);
+			path = stdlib;
+			sourceTree = "<group>";
+		};
+		B96183C928D1626F00B682E4 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				B96183CA28D1629100B682E4 /* Subscriber+eraseToAnySubscriber.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		B9810C1A28C94EB6000FC64D /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				B9810C1B28C94ECE000FC64D /* CGSize + Hashable.swift */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		B98F85E2289DF57B0094CC32 = {
+			isa = PBXGroup;
+			children = (
+				B98F85E7289DF57B0094CC32 /* Shared */,
+				B98F85F6289DF57E0094CC32 /* macOS */,
+				B98F85F0289DF57E0094CC32 /* Products */,
+				B98F861E289E00AF0094CC32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B98F85E7289DF57B0094CC32 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B98F85E8289DF57B0094CC32 /* App.swift */,
+				B98F85E9289DF57B0094CC32 /* ContentView.swift */,
+				B98F8608289DF7450094CC32 /* Canvas.java */,
+				B98F860A289DF7450094CC32 /* ComplexNumber.java */,
+				B98F8606289DF7450094CC32 /* Job.java */,
+				B98F8609289DF7450094CC32 /* Main.java */,
+				B98F8607289DF7450094CC32 /* Pixel.java */,
+				B98F85EA289DF57E0094CC32 /* Assets.xcassets */,
+				B98F862D289E131A0094CC32 /* Canvas.swift */,
+				B9E7F58A28AB2EEC0058D2C1 /* Complex Geometry */,
+				B98F864928A1E6A90094CC32 /* ComputeMandelbrot.swift */,
+				B92A38DD28BEAB9B00CEDD7F /* MandelbrotIterations.swift */,
+				B9E7F57A28A726D50058D2C1 /* FractalColorPalette.swift */,
+				B98F8631289EECB40094CC32 /* Job.swift */,
+				B9E7F57D28A9F1D20058D2C1 /* MandelbrotData.swift */,
+				B9E7F58328A9F8C60058D2C1 /* MandelbrotData + rendering.swift */,
+				B98F8623289E05150094CC32 /* !~==.swift */,
+				B96183D028D44E1C00B682E4 /* Progress.swift */,
+				B98F8639289F2C380094CC32 /* Extensions */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B98F85F0289DF57E0094CC32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B98F85EF289DF57E0094CC32 /* Swiftelbrot.app */,
+				B98F85F5289DF57E0094CC32 /* Swiftelbrot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B98F85F6289DF57E0094CC32 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B98F85F7289DF57E0094CC32 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		B98F861E289E00AF0094CC32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B98F8639289F2C380094CC32 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B9810C1A28C94EB6000FC64D /* CoreGraphics */,
+				B96183C928D1626F00B682E4 /* Combine */,
+				B98F863F289F44E40094CC32 /* SwiftUI */,
+				B92A38D328BE97C600CEDD7F /* RougeWare */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B98F863A289F2C630094CC32 /* DrawingTools */ = {
+			isa = PBXGroup;
+			children = (
+				B98F863C289F2CFD0094CC32 /* images + blank.swift */,
+				B98F8643289F82E00094CC32 /* CGContext extensions.swift */,
+			);
+			path = DrawingTools;
+			sourceTree = "<group>";
+		};
+		B98F863F289F44E40094CC32 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				B9E7F58028A9F54B0058D2C1 /* Color + HSL.swift */,
+				B98F864628A08A5F0094CC32 /* DrawingContext.swift */,
+				B98F8640289F44F00094CC32 /* Image + NativeImage.swift */,
+				B96183CD28D18D8900B682E4 /* ProgressView + Progress.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		B9E7F58A28AB2EEC0058D2C1 /* Complex Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				B98F8615289DF7D70094CC32 /* ComplexNumber.swift */,
+				B9E7F58728AB2E480058D2C1 /* ComplexRect.swift */,
+				B9E7F58B28AB2F070058D2C1 /* ComplexNumber + MutablePoint2D.swift */,
+			);
+			path = "Complex Geometry";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B98F85EE289DF57E0094CC32 /* Swiftelbrot (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B98F8600289DF57E0094CC32 /* Build configuration list for PBXNativeTarget "Swiftelbrot (iOS)" */;
+			buildPhases = (
+				B98F85EB289DF57E0094CC32 /* Sources */,
+				B98F85EC289DF57E0094CC32 /* Frameworks */,
+				B98F85ED289DF57E0094CC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swiftelbrot (iOS)";
+			packageProductDependencies = (
+				B98F8619289DFC390094CC32 /* MultiplicativeArithmetic */,
+				B98F861C289DFF2F0094CC32 /* BasicMathTools */,
+				B98F8635289EF0FE0094CC32 /* DrawingTools */,
+				B98F864D28A20FB50094CC32 /* SimpleLogging */,
+				B9E7F59228B1B8710058D2C1 /* RangeTools */,
+				B92A38D928BE9E9800CEDD7F /* ColorSwatches */,
+				B91A13F328C3F807000FBEA9 /* CollectionTools */,
+			);
+			productName = "Swiftelbrot (iOS)";
+			productReference = B98F85EF289DF57E0094CC32 /* Swiftelbrot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B98F85F4289DF57E0094CC32 /* Swiftelbrot (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B98F8603289DF57E0094CC32 /* Build configuration list for PBXNativeTarget "Swiftelbrot (macOS)" */;
+			buildPhases = (
+				B98F85F1289DF57E0094CC32 /* Sources */,
+				B98F85F2289DF57E0094CC32 /* Frameworks */,
+				B98F85F3289DF57E0094CC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swiftelbrot (macOS)";
+			packageProductDependencies = (
+				B98F861F289E00AF0094CC32 /* MultiplicativeArithmetic */,
+				B98F8621289E00AF0094CC32 /* BasicMathTools */,
+				B98F8637289EF2E60094CC32 /* DrawingTools */,
+				B98F864F28A20FCB0094CC32 /* SimpleLogging */,
+				B9E7F59428B1B87B0058D2C1 /* RangeTools */,
+				B92A38DB28BE9EA100CEDD7F /* ColorSwatches */,
+				B91A13F528C3F818000FBEA9 /* CollectionTools */,
+			);
+			productName = "Swiftelbrot (macOS)";
+			productReference = B98F85F5289DF57E0094CC32 /* Swiftelbrot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B98F85E3289DF57B0094CC32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B98F85EE289DF57E0094CC32 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B98F85F4289DF57E0094CC32 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B98F85E6289DF57B0094CC32 /* Build configuration list for PBXProject "Swiftelbrot" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B98F85E2289DF57B0094CC32;
+			packageReferences = (
+				B98F8618289DFC390094CC32 /* XCRemoteSwiftPackageReference "Swift-MultiplicativeArithmetic" */,
+				B98F861B289DFF2F0094CC32 /* XCRemoteSwiftPackageReference "Swift-Basic-Math-Tools" */,
+				B98F8634289EF0FE0094CC32 /* XCRemoteSwiftPackageReference "Swift-Drawing-Tools" */,
+				B98F864C28A20FB50094CC32 /* XCRemoteSwiftPackageReference "Swift-Simple-Logging" */,
+				B9E7F59128B1B8710058D2C1 /* XCRemoteSwiftPackageReference "Swift-Range-Tools" */,
+				B92A38D828BE9E9800CEDD7F /* XCRemoteSwiftPackageReference "Swift-Color-Swatches" */,
+				B91A13F228C3F807000FBEA9 /* XCRemoteSwiftPackageReference "Swift-Collection-Tools" */,
+			);
+			productRefGroup = B98F85F0289DF57E0094CC32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B98F85EE289DF57E0094CC32 /* Swiftelbrot (iOS) */,
+				B98F85F4289DF57E0094CC32 /* Swiftelbrot (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B98F85ED289DF57E0094CC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98F85FC289DF57E0094CC32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98F85F3289DF57E0094CC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98F85FD289DF57E0094CC32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B98F85EB289DF57E0094CC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92A38D628BE9A3300CEDD7F /* Size + scale.swift in Sources */,
+				B98F860D289DF7450094CC32 /* Pixel.java in Sources */,
+				B9E7F57B28A726D50058D2C1 /* FractalColorPalette.swift in Sources */,
+				B98F8644289F82E00094CC32 /* CGContext extensions.swift in Sources */,
+				B9E7F58828AB2E480058D2C1 /* ComplexRect.swift in Sources */,
+				B98F85FA289DF57E0094CC32 /* ContentView.swift in Sources */,
+				B96183D128D44E1C00B682E4 /* Progress.swift in Sources */,
+				B92A38DE28BEAB9B00CEDD7F /* MandelbrotIterations.swift in Sources */,
+				B92A38E128BEB20300CEDD7F /* Rectangle + atResolution.swift in Sources */,
+				B98F8613289DF7450094CC32 /* ComplexNumber.java in Sources */,
+				B98F862E289E131A0094CC32 /* Canvas.swift in Sources */,
+				B98F864728A08A5F0094CC32 /* DrawingContext.swift in Sources */,
+				B96183D428D4C2E300B682E4 /* 2D + multiplication.swift in Sources */,
+				B9E7F58C28AB2F070058D2C1 /* ComplexNumber + MutablePoint2D.swift in Sources */,
+				B92A38E428BEE40C00CEDD7F /* Sequence + concurrency.swift in Sources */,
+				B98F85F8289DF57E0094CC32 /* App.swift in Sources */,
+				B98F8611289DF7450094CC32 /* Main.java in Sources */,
+				B98F8632289EECB40094CC32 /* Job.swift in Sources */,
+				B98F863D289F2CFD0094CC32 /* images + blank.swift in Sources */,
+				B96183CB28D1629100B682E4 /* Subscriber+eraseToAnySubscriber.swift in Sources */,
+				B9E7F58128A9F54B0058D2C1 /* Color + HSL.swift in Sources */,
+				B98F8641289F44F00094CC32 /* Image + NativeImage.swift in Sources */,
+				B98F8624289E05150094CC32 /* !~==.swift in Sources */,
+				B9E7F58428A9F8C60058D2C1 /* MandelbrotData + rendering.swift in Sources */,
+				B9E7F57E28A9F1D20058D2C1 /* MandelbrotData.swift in Sources */,
+				B98F860B289DF7450094CC32 /* Job.java in Sources */,
+				B96183CE28D18D8900B682E4 /* ProgressView + Progress.swift in Sources */,
+				B9810C1C28C94ECE000FC64D /* CGSize + Hashable.swift in Sources */,
+				B98F8616289DF7D70094CC32 /* ComplexNumber.swift in Sources */,
+				B92A38D228BE97BD00CEDD7F /* Rectangle + extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98F85F1289DF57E0094CC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92A38D728BE9B6D00CEDD7F /* Size + scale.swift in Sources */,
+				B98F860E289DF7450094CC32 /* Pixel.java in Sources */,
+				B9E7F57C28A726D50058D2C1 /* FractalColorPalette.swift in Sources */,
+				B98F8645289F82E00094CC32 /* CGContext extensions.swift in Sources */,
+				B9E7F58928AB2E480058D2C1 /* ComplexRect.swift in Sources */,
+				B98F85FB289DF57E0094CC32 /* ContentView.swift in Sources */,
+				B96183D228D44E1C00B682E4 /* Progress.swift in Sources */,
+				B92A38DF28BEAFCF00CEDD7F /* MandelbrotIterations.swift in Sources */,
+				B92A38E228BEB3D400CEDD7F /* Rectangle + atResolution.swift in Sources */,
+				B98F8614289DF7450094CC32 /* ComplexNumber.java in Sources */,
+				B98F862F289E131A0094CC32 /* Canvas.swift in Sources */,
+				B98F864828A08A5F0094CC32 /* DrawingContext.swift in Sources */,
+				B96183D528D4C2E300B682E4 /* 2D + multiplication.swift in Sources */,
+				B9E7F58D28AB2F070058D2C1 /* ComplexNumber + MutablePoint2D.swift in Sources */,
+				B92A38E528BEE40C00CEDD7F /* Sequence + concurrency.swift in Sources */,
+				B98F85F9289DF57E0094CC32 /* App.swift in Sources */,
+				B98F8612289DF7450094CC32 /* Main.java in Sources */,
+				B98F8633289EECB40094CC32 /* Job.swift in Sources */,
+				B98F863E289F2CFD0094CC32 /* images + blank.swift in Sources */,
+				B96183CC28D1845400B682E4 /* Subscriber+eraseToAnySubscriber.swift in Sources */,
+				B9E7F58228A9F54B0058D2C1 /* Color + HSL.swift in Sources */,
+				B98F8642289F44F00094CC32 /* Image + NativeImage.swift in Sources */,
+				B98F8625289E05150094CC32 /* !~==.swift in Sources */,
+				B9E7F58528A9F8C60058D2C1 /* MandelbrotData + rendering.swift in Sources */,
+				B9E7F57F28A9F1D20058D2C1 /* MandelbrotData.swift in Sources */,
+				B98F860C289DF7450094CC32 /* Job.java in Sources */,
+				B96183CF28D18D8900B682E4 /* ProgressView + Progress.swift in Sources */,
+				B9810C1D28C94F07000FC64D /* CGSize + Hashable.swift in Sources */,
+				B98F8617289DF7D70094CC32 /* ComplexNumber.swift in Sources */,
+				B92A38D428BE987200CEDD7F /* Rectangle + extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B98F85FE289DF57E0094CC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B98F85FF289DF57E0094CC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B98F8601289DF57E0094CC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26V9MK8TGP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.kyleggiero.Swiftelbrot;
+				PRODUCT_NAME = Swiftelbrot;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B98F8602289DF57E0094CC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26V9MK8TGP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.kyleggiero.Swiftelbrot;
+				PRODUCT_NAME = Swiftelbrot;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B98F8604289DF57E0094CC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 26V9MK8TGP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.kyleggiero.Swiftelbrot;
+				PRODUCT_NAME = Swiftelbrot;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B98F8605289DF57E0094CC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 26V9MK8TGP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.kyleggiero.Swiftelbrot;
+				PRODUCT_NAME = Swiftelbrot;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B98F85E6289DF57B0094CC32 /* Build configuration list for PBXProject "Swiftelbrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98F85FE289DF57E0094CC32 /* Debug */,
+				B98F85FF289DF57E0094CC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B98F8600289DF57E0094CC32 /* Build configuration list for PBXNativeTarget "Swiftelbrot (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98F8601289DF57E0094CC32 /* Debug */,
+				B98F8602289DF57E0094CC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B98F8603289DF57E0094CC32 /* Build configuration list for PBXNativeTarget "Swiftelbrot (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98F8604289DF57E0094CC32 /* Debug */,
+				B98F8605289DF57E0094CC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B91A13F228C3F807000FBEA9 /* XCRemoteSwiftPackageReference "Swift-Collection-Tools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RougeWare/Swift-Collection-Tools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+		B92A38D828BE9E9800CEDD7F /* XCRemoteSwiftPackageReference "Swift-Color-Swatches" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RougeWare/Swift-Color-Swatches.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+		B98F8618289DFC390094CC32 /* XCRemoteSwiftPackageReference "Swift-MultiplicativeArithmetic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RougeWare/Swift-MultiplicativeArithmetic.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+		B98F861B289DFF2F0094CC32 /* XCRemoteSwiftPackageReference "Swift-Basic-Math-Tools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RougeWare/Swift-Basic-Math-Tools";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		B98F8634289EF0FE0094CC32 /* XCRemoteSwiftPackageReference "Swift-Drawing-Tools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RougeWare/Swift-Drawing-Tools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		B98F864C28A20FB50094CC32 /* XCRemoteSwiftPackageReference "Swift-Simple-Logging" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RougeWare/Swift-Simple-Logging";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.5.2;
+			};
+		};
+		B9E7F59128B1B8710058D2C1 /* XCRemoteSwiftPackageReference "Swift-Range-Tools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RougeWare/Swift-Range-Tools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B91A13F328C3F807000FBEA9 /* CollectionTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B91A13F228C3F807000FBEA9 /* XCRemoteSwiftPackageReference "Swift-Collection-Tools" */;
+			productName = CollectionTools;
+		};
+		B91A13F528C3F818000FBEA9 /* CollectionTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B91A13F228C3F807000FBEA9 /* XCRemoteSwiftPackageReference "Swift-Collection-Tools" */;
+			productName = CollectionTools;
+		};
+		B92A38D928BE9E9800CEDD7F /* ColorSwatches */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B92A38D828BE9E9800CEDD7F /* XCRemoteSwiftPackageReference "Swift-Color-Swatches" */;
+			productName = ColorSwatches;
+		};
+		B92A38DB28BE9EA100CEDD7F /* ColorSwatches */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B92A38D828BE9E9800CEDD7F /* XCRemoteSwiftPackageReference "Swift-Color-Swatches" */;
+			productName = ColorSwatches;
+		};
+		B98F8619289DFC390094CC32 /* MultiplicativeArithmetic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B98F8618289DFC390094CC32 /* XCRemoteSwiftPackageReference "Swift-MultiplicativeArithmetic" */;
+			productName = MultiplicativeArithmetic;
+		};
+		B98F861C289DFF2F0094CC32 /* BasicMathTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B98F861B289DFF2F0094CC32 /* XCRemoteSwiftPackageReference "Swift-Basic-Math-Tools" */;
+			productName = BasicMathTools;
+		};
+		B98F861F289E00AF0094CC32 /* MultiplicativeArithmetic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B98F8618289DFC390094CC32 /* XCRemoteSwiftPackageReference "Swift-MultiplicativeArithmetic" */;
+			productName = MultiplicativeArithmetic;
+		};
+		B98F8621289E00AF0094CC32 /* BasicMathTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B98F861B289DFF2F0094CC32 /* XCRemoteSwiftPackageReference "Swift-Basic-Math-Tools" */;
+			productName = BasicMathTools;
+		};
+		B98F8635289EF0FE0094CC32 /* DrawingTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B98F8634289EF0FE0094CC32 /* XCRemoteSwiftPackageReference "Swift-Drawing-Tools" */;
+			productName = DrawingTools;
+		};
+		B98F8637289EF2E60094CC32 /* DrawingTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B98F8634289EF0FE0094CC32 /* XCRemoteSwiftPackageReference "Swift-Drawing-Tools" */;
+			productName = DrawingTools;
+		};
+		B98F864D28A20FB50094CC32 /* SimpleLogging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B98F864C28A20FB50094CC32 /* XCRemoteSwiftPackageReference "Swift-Simple-Logging" */;
+			productName = SimpleLogging;
+		};
+		B98F864F28A20FCB0094CC32 /* SimpleLogging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B98F864C28A20FB50094CC32 /* XCRemoteSwiftPackageReference "Swift-Simple-Logging" */;
+			productName = SimpleLogging;
+		};
+		B9E7F59228B1B8710058D2C1 /* RangeTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9E7F59128B1B8710058D2C1 /* XCRemoteSwiftPackageReference "Swift-Range-Tools" */;
+			productName = RangeTools;
+		};
+		B9E7F59428B1B87B0058D2C1 /* RangeTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9E7F59128B1B8710058D2C1 /* XCRemoteSwiftPackageReference "Swift-Range-Tools" */;
+			productName = RangeTools;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B98F85E3289DF57B0094CC32 /* Project object */;
+}
