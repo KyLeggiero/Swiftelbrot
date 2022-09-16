@@ -22,32 +22,20 @@ private let jobList = OperationQueue()
 
 struct MandelbrotView: View {
     
+    @Environment(\.displayScale)
+    private var displayScale
+    
     @State
     private var scale: CGFloat = 1
     
     @State
-    private var scaleFactor: CGFloat = 0
-    
-    @State
-    private var startOffset = CGPoint(x: -840, y: 240)
-    
-    @State
-    private var offset = CGPoint.zero
+    private var center = CGPoint.zero
     
     @State
     private var iterations: UInt = 4
     
-    @State
-    private var jobCount = UIntSize(width: 1, height: 1) //UIntSize(width: 2, height: 8)
-    
-    @State
-    private var threadCount = 8
-    
-    @State
-    private var showCrosshair = true
-    
-    @State
-    private var pictureNumber = 0
+//    @State
+//    private var showCrosshair = true
     
     @State
     private var cachedSize = CGSize(width: 1, height: 1)
@@ -84,7 +72,7 @@ struct MandelbrotView: View {
             GeometryReader { geometry in
                 Image(nativeImage: renderedImage)
                     .resizable()
-                    .scaledToFill()
+                    .scaledToFit()
                     .onChange(of: geometry.size) { size in
                         cachedSize = size
                     }
@@ -96,7 +84,7 @@ struct MandelbrotView: View {
                             Text("Done")
                         }
                         else {
-                            Text("\(progress.fractionCompleted, format: .percent)")
+                            Text("\(progress.fractionCompleted, format: .percent(fractionDigits: 2))")
                                 .font(.body.monospacedDigit())
                         }
                     }
@@ -132,7 +120,7 @@ struct MandelbrotView: View {
                     self.progress = .indeterminate
 //
                     await mandelbrotData.compute(
-                        resolution: .init(cachedSize * 2),
+                        resolution: .init(cachedSize * displayScale),
                         iterationLimit: iterations,
                         updateFeed: progressUpdateFeed)
 //                    mandelbrotData.computeSync(
@@ -156,7 +144,7 @@ struct MandelbrotView: View {
 //                                                               in: colorPalette)
 //            }
             
-            renderedImage = mandelbrotData.image_sync(size: .init(cachedSize),
+            renderedImage = mandelbrotData.image_sync(size: .init(cachedSize * displayScale),
                                                       in: colorPalette)
         }
         

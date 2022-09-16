@@ -29,6 +29,10 @@
 		B96183D228D44E1C00B682E4 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183D028D44E1C00B682E4 /* Progress.swift */; };
 		B96183D428D4C2E300B682E4 /* 2D + multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183D328D4C2E300B682E4 /* 2D + multiplication.swift */; };
 		B96183D528D4C2E300B682E4 /* 2D + multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183D328D4C2E300B682E4 /* 2D + multiplication.swift */; };
+		B96183D828D4D6B200B682E4 /* FormatStyle.percent + more formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183D728D4D6B200B682E4 /* FormatStyle.percent + more formatting.swift */; };
+		B96183D928D4D6B200B682E4 /* FormatStyle.percent + more formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183D728D4D6B200B682E4 /* FormatStyle.percent + more formatting.swift */; };
+		B96183DB28D4DDB800B682E4 /* NSNumber + BinaryFloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183DA28D4DDB800B682E4 /* NSNumber + BinaryFloatingPoint.swift */; };
+		B96183DC28D4DDB800B682E4 /* NSNumber + BinaryFloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96183DA28D4DDB800B682E4 /* NSNumber + BinaryFloatingPoint.swift */; };
 		B9810C1C28C94ECE000FC64D /* CGSize + Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9810C1B28C94ECE000FC64D /* CGSize + Hashable.swift */; };
 		B9810C1D28C94F07000FC64D /* CGSize + Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9810C1B28C94ECE000FC64D /* CGSize + Hashable.swift */; };
 		B98F85F8289DF57E0094CC32 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F85E8289DF57B0094CC32 /* App.swift */; };
@@ -95,6 +99,8 @@
 		B96183CD28D18D8900B682E4 /* ProgressView + Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressView + Progress.swift"; sourceTree = "<group>"; };
 		B96183D028D44E1C00B682E4 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 		B96183D328D4C2E300B682E4 /* 2D + multiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2D + multiplication.swift"; sourceTree = "<group>"; };
+		B96183D728D4D6B200B682E4 /* FormatStyle.percent + more formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormatStyle.percent + more formatting.swift"; sourceTree = "<group>"; };
+		B96183DA28D4DDB800B682E4 /* NSNumber + BinaryFloatingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNumber + BinaryFloatingPoint.swift"; sourceTree = "<group>"; };
 		B9810C1B28C94ECE000FC64D /* CGSize + Hashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize + Hashable.swift"; sourceTree = "<group>"; };
 		B98F85E8289DF57B0094CC32 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		B98F85E9289DF57B0094CC32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -193,6 +199,15 @@
 			path = Combine;
 			sourceTree = "<group>";
 		};
+		B96183D628D4D68D00B682E4 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B96183D728D4D6B200B682E4 /* FormatStyle.percent + more formatting.swift */,
+				B96183DA28D4DDB800B682E4 /* NSNumber + BinaryFloatingPoint.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		B9810C1A28C94EB6000FC64D /* CoreGraphics */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +281,7 @@
 			children = (
 				B9810C1A28C94EB6000FC64D /* CoreGraphics */,
 				B96183C928D1626F00B682E4 /* Combine */,
+				B96183D628D4D68D00B682E4 /* Foundation */,
 				B98F863F289F44E40094CC32 /* SwiftUI */,
 				B92A38D328BE97C600CEDD7F /* RougeWare */,
 			);
@@ -434,6 +450,7 @@
 				B9E7F58828AB2E480058D2C1 /* ComplexRect.swift in Sources */,
 				B98F85FA289DF57E0094CC32 /* ContentView.swift in Sources */,
 				B96183D128D44E1C00B682E4 /* Progress.swift in Sources */,
+				B96183DB28D4DDB800B682E4 /* NSNumber + BinaryFloatingPoint.swift in Sources */,
 				B92A38DE28BEAB9B00CEDD7F /* MandelbrotIterations.swift in Sources */,
 				B92A38E128BEB20300CEDD7F /* Rectangle + atResolution.swift in Sources */,
 				B98F8613289DF7450094CC32 /* ComplexNumber.java in Sources */,
@@ -448,6 +465,7 @@
 				B98F863D289F2CFD0094CC32 /* images + blank.swift in Sources */,
 				B96183CB28D1629100B682E4 /* Subscriber+eraseToAnySubscriber.swift in Sources */,
 				B9E7F58128A9F54B0058D2C1 /* Color + HSL.swift in Sources */,
+				B96183D828D4D6B200B682E4 /* FormatStyle.percent + more formatting.swift in Sources */,
 				B98F8641289F44F00094CC32 /* Image + NativeImage.swift in Sources */,
 				B98F8624289E05150094CC32 /* !~==.swift in Sources */,
 				B9E7F58428A9F8C60058D2C1 /* MandelbrotData + rendering.swift in Sources */,
@@ -471,6 +489,7 @@
 				B9E7F58928AB2E480058D2C1 /* ComplexRect.swift in Sources */,
 				B98F85FB289DF57E0094CC32 /* ContentView.swift in Sources */,
 				B96183D228D44E1C00B682E4 /* Progress.swift in Sources */,
+				B96183DC28D4DDB800B682E4 /* NSNumber + BinaryFloatingPoint.swift in Sources */,
 				B92A38DF28BEAFCF00CEDD7F /* MandelbrotIterations.swift in Sources */,
 				B92A38E228BEB3D400CEDD7F /* Rectangle + atResolution.swift in Sources */,
 				B98F8614289DF7450094CC32 /* ComplexNumber.java in Sources */,
@@ -485,6 +504,7 @@
 				B98F863E289F2CFD0094CC32 /* images + blank.swift in Sources */,
 				B96183CC28D1845400B682E4 /* Subscriber+eraseToAnySubscriber.swift in Sources */,
 				B9E7F58228A9F54B0058D2C1 /* Color + HSL.swift in Sources */,
+				B96183D928D4D6B200B682E4 /* FormatStyle.percent + more formatting.swift in Sources */,
 				B98F8642289F44F00094CC32 /* Image + NativeImage.swift in Sources */,
 				B98F8625289E05150094CC32 /* !~==.swift in Sources */,
 				B9E7F58528A9F8C60058D2C1 /* MandelbrotData + rendering.swift in Sources */,

@@ -128,7 +128,7 @@ public extension MandelbrotIterations {
         
         for iterations in 0 ... maxIterations {
             tr = pow(second.real, 2) - pow(second.coefficient, 2) + mandelCoords.real
-            second.coefficient = 2 * second.real * second.coefficient// + mandelCoords.coefficient
+            second.coefficient = 2 * second.real * second.coefficient
             second.real = tr
 
             if abs(second.real) > 2,
